@@ -1,0 +1,128 @@
+.joinIn{
+    display: flex;
+    flex-direction:column;
+    align-items:center !important;
+    min-height:50vh;
+    background-color: #f3f2ef;
+height: 45rem;
+    /* text-align: center; */
+   
+}
+.joinIn >a>img{
+    width: 10%;
+    padding: 25px; 
+}
+.Join_container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    padding: 25px !important;
+    color: gray !important;
+    font-weight: 300;
+    flex-direction:column;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.email_join>input{
+    padding: 8px ;
+    /* margin: 9px 0px 0px 0px; */
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width:90% !important;
+}
+.password_join > input{
+    padding: 8px ;
+    /* margin: 9px 0px 0px 0px; */
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width:90% !important;
+}
+.policy> p{
+    text-align: center !important;
+    font-weight: 300;
+    font-size: 12px;
+
+}
+.join_or{
+    position:relative;
+    text-align: center !important;
+}
+.join_or:before{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 0.1px;
+    background:  rgb(196, 196, 196);
+    left: 0;
+    top: 60%;
+    position: absolute;
+}
+.join_or:after{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 0.1px;
+    background: rgb(196, 196, 196);
+    right: 0;
+    top: 60%;
+    position: absolute;
+}
+.already_join{
+    color: black;
+    font-weight: 400;
+}
+span{
+    color: rgb(10, 96, 233);
+    font-weight: 500;
+}
+.join_btn:hover{
+    background-color: rgb(64, 64, 142);
+}
+.join_btn {
+    text-align: center !important;
+    /* align-items: center !important; */
+ 
+}
+.joinin__btn > button{
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 17px;
+    width: 100%;
+    background-color: #fff;
+    border:1.7px solid gray;
+    line-height: 25px;
+}
+.joinin__btn>button:hover{
+    cursor: pointer !important;
+}
+.join_btn:hover{
+    cursor: pointer;
+}
+.join_btn{
+    background-color: #0a66c2;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 17px;
+    border: none;
+    line-height: 30px;
+}
+.sign__btn{
+    text-decoration: none;
+    color: #0a66c2;
+    font-weight: 500;
+}
+.sign__btn:hover{
+    text-decoration: underline;
+}
+.joinin__btn > img{
+    width: 17px;
+   position: relative;
+   top: 3px;
+   border-radius: 50%;
+
+}
+.joinin__btn{
+    text-align: center !important;
+}

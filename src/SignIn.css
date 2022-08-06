@@ -1,0 +1,122 @@
+.signIn{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    min-height:50vh;
+}
+.input__field > input{
+  padding: 18px;
+  /* margin: 9px 0px 0px 0px; */
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width:90% !important;
+  
+}
+.stay{
+    padding: 0px !important;
+}
+h1{
+    padding: 0px !important;
+}
+.email{
+    background-color: #e2eef9;
+    margin-bottom: 20px;
+}
+.signIn >a > img{
+    width: 10%;
+    padding: 5px;
+}
+.sign__in{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    padding: 15px !important;
+    
+    flex-direction:column;
+    border-radius: 10px;
+   
+}
+
+p{
+    text-align: start !important;
+    
+}
+.forgot_pass{
+    color: #0a66c2 !important;
+    border-radius: 50px;
+    width: 50%;
+    line-height: 35px;
+    font-weight: 550;
+}
+.forgot_pass:hover{
+    text-decoration: underline;
+    background-color: #c3def9;
+    cursor: pointer;
+}
+.sbtn{
+    background-color: #0a66c2;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 17px;
+    border: none;
+    line-height: 30px;
+}
+.sbtn:hover{
+    background-color: rgb(64, 64, 142);
+}
+.or{
+    position:relative;
+    text-align: center !important;
+}
+.or:before{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 0.1px;
+    background:  rgb(196, 196, 196);
+    left: 0;
+    top: 60%;
+    position: absolute;
+}
+.or:after{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 0.1px;
+    background: rgb(196, 196, 196);
+    right: 0;
+    top: 60%;
+    position: absolute;
+}
+.signin__btn {
+    text-align: center !important;
+    /* align-items: center !important; */
+ 
+}
+.signin__btn > button{
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 17px;
+    width: 100%;
+    background-color: #fff;
+    border:1.7px solid gray;
+    line-height: 25px;
+}
+.signin__btn>button:hover{
+    cursor: pointer !important;
+}
+.sbtn:hover{
+    cursor: pointer;
+}
+.join_link {
+    text-decoration: none !important;
+    color: #0a66c2 !important;
+    font-weight: 550;
+}
+.signin__btn > img{
+    width: 17px;
+    position: relative;
+    top: 3px;
+    border-radius: 50%;
+}

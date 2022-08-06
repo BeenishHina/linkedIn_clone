@@ -1,0 +1,158 @@
+.login {
+    display: flex;
+    padding: 12px 12%;
+}
+
+.login__left>a>img {
+    width: 13%
+}
+
+.login__right {
+    display: flex;
+}
+
+.joinBtn {
+    border: none;
+    background: none;
+    border-radius: 50px;
+    margin-right: 5%;
+    width: 7rem;
+    font-weight: 500;
+    font-size: 17px;
+    color: gray;
+}
+
+.joinBtn:hover {
+    cursor: pointer;
+    background-color: rgb(244, 241, 241);
+    color: black;
+}
+
+.SignInBtn {
+    border: 2px solid rgb(82, 99, 206);
+    border-radius: 30px;
+    padding: 13px;
+    margin-left: 5px;
+    width: 7rem;
+    background: white;
+    color: blue;
+    font-size: 17px;
+
+}
+
+.SignInBtn:hover {
+    cursor: pointer;
+    background-color: rgb(242, 251, 251);
+    color: #0d5398;
+}
+
+.login_area {
+    padding: 15px 0px 0px 12%;
+    display: flex;
+}
+
+.section_A {
+    flex: 0.5;
+}
+
+.section_A>h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgb(166, 75, 75);
+}
+
+.login__or {
+    position: relative;
+    text-align: center !important;
+
+}
+
+.login__or:before {
+    content: "";
+    /* display: block; */
+    width: 220px;
+    height: 0.1px;
+    background: rgb(196, 196, 196);
+    left: 0;
+    top: 60%;
+    position: absolute;
+}
+
+.login__or:after {
+    content: "";
+    display: block;
+    width: 216px;
+    height: 0.1px;
+    background: rgb(196, 196, 196);
+    right: 0;
+    top: 60%;
+    position: absolute;
+}
+
+.login__email>input {
+    padding: 18px;
+    /* margin: 9px 0px 0px 0px; */
+    font-size: 15px;
+    border: 1px solid black;
+    width: 90% !important;
+}
+
+.login__pswd>input {
+    padding: 18px;
+    /* margin: 9px 0px 0px 0px; */
+    font-size: 15px;
+    border: 1px solid black;
+    width: 90% !important;
+    margin-top: 1rem;
+}
+
+.login__forgot:hover {
+    color: rgb(23, 89, 175);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.google_signin {
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 17px;
+    border: none;
+    line-height: 35px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid gray;
+}
+.google_signin:hover{
+    cursor: pointer;
+    background-color: rgb(228, 226, 226);
+}
+
+.login__signIn {
+    background-color: #0a66c2;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 17px;
+    border: none;
+    line-height: 35px;
+    width: 100%;
+}
+
+.login__signIn:hover {
+    background-color: rgb(64, 64, 142);
+    cursor: pointer;
+}
+.google_signin > img{
+    width: 17px;
+    position: relative;
+    top: 3px;
+    border-radius: 50%;
+}
+
+.section_B{
+    flex: 0.5;
+}
+.section_B > img{
+    width: 48rem;
+    margin-left: 7rem !important;
+}

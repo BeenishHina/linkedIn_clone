@@ -1,0 +1,173 @@
+.sidebar{
+    flex: 0.15 !important;
+    position: sticky;
+    top: 80px;
+    height: fit-content;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    font-size: 12px;
+    border-radius: 10px;
+
+}
+.sidebar_top {
+   text-align: center;
+}
+ 
+.sidebar_top > img{
+    background-position: center;
+    background-size: 469px;
+    height: 55px;
+    margin: -12px -12px 0;
+    cursor: default !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.sidebar_avatar{
+ 
+ margin:-38px auto 12px;
+ width: 72px !important;
+ height: 72px !important;
+ border: 2px solid white;
+
+}
+.sidebar_top > p{
+   color: #979595;
+    font-weight: 400 !important;
+    padding: 5px;
+    cursor: auto !important;
+}
+.work{
+    text-align: center !important;
+}
+.center{
+    padding-top: 12px;
+    padding-bottom: 2px;
+   
+    display: flex;
+    flex-direction: column;
+}
+.span_A{
+    color: rgba(0,0,0,0.6);
+}
+.span_B{
+    color: black;
+}
+.sectionA >a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+}
+.sectionA > a:hover{
+    background-color: rgba(0,0,0,0.08);
+}
+.sectionA > a> img{
+    background-color: none;
+    width: 19px;
+    border-radius: 10px;
+}
+.icon{
+    height: 40px !important;
+    width: 18px !important;
+}
+.network{
+    margin-top: -10px;
+}
+
+hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    border-radius: 5%;
+
+}
+
+.connection{
+    color: #979595 ;
+    font-weight: 600;
+}
+.network{
+    font-weight: 600;
+}
+p{
+    padding: 0px 0px 0px 7px;
+}
+.tools{
+    color: #979595 ;
+}
+.items{
+    display: flex;
+    line-height: 2;
+}
+.items:hover{
+    background-color: rgb(239, 238, 238);
+}
+.icons{
+    width: 18px !important;
+    color: rgb(103, 100, 100);
+}
+.iconss{
+    color: rgb(235, 172, 105);
+    width: 18px !important;
+}
+.premium{
+    display: flex;
+    line-height: 2;
+}
+
+.access:hover{
+    background-color: rgb(239, 238, 238);
+    color: #1074fb;
+}
+.sectionA{
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.sidebar_stats{
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.sidebar_stats > p{
+    color: #1074fb;
+    font-weight: bold;
+    
+}
+.sidebar_stats > p:hover{
+text-decoration: underline;
+}
+.addIcon{
+    color: gray;
+    width: 20px !important;
+    height: 20px !important;
+    /* position: relative !important; */
+    /* float: right !important; */
+    margin-top: -0.2rem;
+    margin-left: 9rem;
+}
+.add{
+    display: flex;
+}
+.sidebar_stats > h4{
+  text-align: center !important;
+  color: rgb(140, 137, 137);
+
+}
+.sidebar_stats > h4:hover{
+    background-color: lightgray;
+}
+.addIcon:hover{
+    background-color: lightgray;
+    color: black;
+    border-radius: 50px;
+    
+}

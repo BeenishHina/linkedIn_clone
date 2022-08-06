@@ -1,0 +1,32 @@
+.feed_container{
+    flex: 0.5 !important;
+   
+    top: 80px;
+}
+.feed{
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 1.5rem;
+    margin-left:3rem ;
+}
+.input_container{
+   display: flex;
+}
+.avatar{
+    margin: 5px;
+}
+.input_container >form > input{
+    border-radius: 50px;
+    width: 100% !important;
+    border: 0.2px solid gray !important;
+    padding: 5px;
+    font-weight: bold;
+}
+.feedIcons{
+display: flex;
+padding: 10px;
+justify-content: space-evenly;
+}
+form{
+    display: flex;
+}
